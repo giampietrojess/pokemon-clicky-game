@@ -12,7 +12,7 @@ https://shrouded-citadel-86558.herokuapp.com/
 
 ## Technologies used
 - Node.js
-- Yarn
+- Yarn - https://www.npmjs.com/package/yarn
 - React - https://reactjs.org/
 - React-Dom - https://www.npmjs.com/package/react-dom
 - Create-React-App - https://github.com/facebook/create-react-app
