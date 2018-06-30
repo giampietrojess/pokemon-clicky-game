@@ -17,13 +17,6 @@ https://shrouded-citadel-86558.herokuapp.com/
 - React-Dom - https://www.npmjs.com/package/react-dom
 - Create-React-App - https://github.com/facebook/create-react-app
 
-
-### Prerequisites
-
-```
-- Node.js - Download the latest version of Node https://nodejs.org/en/
-```
-
 ## Built With
 
 * Visual Studio Code
