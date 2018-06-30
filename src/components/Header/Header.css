@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+  background-color: #3B4CCA;
+  border-bottom: 10px solid black;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.title {
+  font-family: 'Bowlby One SC', cursive;
+  justify-content: space-around;
+  align-content: flex-start;
+  display: flex;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.scores {
+  justify-content: space-around;
+  align-content: flex-start;
+  display: flex;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 2px #000;
+  margin-top: -20px;
+}

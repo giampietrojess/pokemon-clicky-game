@@ -1,0 +1,83 @@
+.card {
+  border-radius: 50%;
+  height: 200px;
+  margin: 1rem;
+  position: relative;
+  width: 200px;
+  border: 2px solid black;
+  box-shadow: -5px 5px  rgba(0,0,0,0.6);
+	-moz-box-shadow: -5px 5px  rgba(0,0,0,0.6);
+	-webkit-box-shadow: -5px 5px 10px  rgba(0,0,0,0.3);
+	-o-box-shadow: -5px 5px  rgba(0,0,0,0.6);
+	background: linear-gradient(red, red, red, red, red, red, black, white, white, white, white, white, white);
+
+
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+
+  
+}
+
+
+/* Pulse */
+@-webkit-keyframes card-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes card-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.card > .img-container > img:hover, .card > .img-container > img:focus, .card > .img-container > img:active {
+  -webkit-animation-name: card-pulse;
+  animation-name: card-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+
+.card > .img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+
+}
+.card > .img-container > img {
+  width: 60%;
+  margin-top: 30px;
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+}
+
+
+
+
+
+
