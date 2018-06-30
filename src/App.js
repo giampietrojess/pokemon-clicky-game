@@ -27,6 +27,20 @@ class App extends Component {
     return true;
   }
 
+  youWin = () => {
+    if (this.state.score === 12) {
+      this.setState({highscore: this.state.score}, function() {
+        console.log(this.state.highscore);
+      });
+    }
+    this.state.cards.forEach(card => {
+      card.count = 0;
+    });
+    alert(`You Win! :) \nscore: ${this.state.score}`);
+    this.setState({score: 0});
+    return true;
+  }
+
   clickCount = id => {
     this.state.cards.find((o, i) => {
       if (o.id === id) {
@@ -37,6 +51,8 @@ class App extends Component {
           });
           this.state.cards.sort(() => Math.random() - 0.5)
           return true; 
+        } else if (this.state.score === 12) {
+          this.youWin();
         } else {
           this.gameOver();
         }
