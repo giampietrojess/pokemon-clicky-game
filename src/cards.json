@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Charmander",
+    "image": "../assets/images/Charmander.png",
+    "count": 0
+  },
+  {
+    "id": 2,
+    "name": "Squirtle",
+    "image": "../assets/images/Squirtle.png",
+    "count": 0
+  },
+  {
+    "id": 3,
+    "name": "Bulbasaur",
+    "image": "../assets/images/Bulbasaur.png",
+    "count": 0
+  },
+  {
+    "id": 4,
+    "name": "Pikachu",
+    "image": "../assets/images/Pikachu.png",
+    "count": 0
+  },
+  {
+    "id": 5,
+    "name": "Eevee",
+    "image": "../assets/images/Eevee.png",
+    "count": 0
+  },
+  {
+    "id": 6,
+    "name": "Ponyta",
+    "image": "../assets/images/Ponyta.png",
+    "count": 0
+  },
+  {
+    "id": 7,
+    "name": "Ditto",
+    "image": "../assets/images/Ditto.png",
+    "count": 0
+  },
+  {
+    "id": 8,
+    "name": "Growlithe",
+    "image": "../assets/images/Growlithe.png",
+    "count": 0
+  },
+  {
+    "id": 9,
+    "name": "Sandshrew",
+    "image": "../assets/images/Sandshrew.png",
+    "count": 0
+  },
+  {
+    "id": 10,
+    "name": "Vulpix",
+    "image": "../assets/images/Vulpix.png",
+    "count": 0
+  },
+  {
+    "id": 11,
+    "name": "Rattata",
+    "image": "../assets/images/Rattata.png",
+    "count": 0
+  },
+  {
+    "id": 12,
+    "name": "Pidgey",
+    "image": "../assets/images/Pidgey.png",
+    "count": 0
+  }
+]
